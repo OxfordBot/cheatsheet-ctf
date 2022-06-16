@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            * {
+                border: 0;
+                padding: 0;
+                margin: 0;
+                outline: 0;
+                user-select: 0;
+            }
+            table {
+                border-collapse: collapse;
+                font-size: 12.5px;
+                font-family: consolas;
+                margin: 10px;
+            }
+            th {
+                padding: 2.5px;
+                padding-left: 5px;
+                padding-right: 10px;
+                text-align: left;
+            }
+            td {
+                padding-left: 5px;
+                padding-right: 20px;
+            }
+            tr:nth-child(even) {
+                background-color: rgba(0, 0, 0, 0.04);
+            }
+            .sources {
+                padding: 0;
+            }
+            .commands {
+                text-align: right;
+                padding-left: 10px;
+            }
+            .stack-overflow-btn {
+                display: block;
+                background-color: #F47F24;
+                padding: 7.5px;
+                color: #FFFFFF;
+                text-decoration: none;
+                text-align: center
+            }
+            .geeks-for-geeks-btn {
+                display: block;
+                background-color: #04AA6D;
+                padding: 7.5px;
+                color: #FFFFFF;
+                text-decoration: none;
+                text-align: center;
+            }
+            .the-security-sleuth-btn {
+                display: block;
+                background-color: #333333;
+                padding: 7.5px;
+                color: #FFFFFF;
+                text-decoration: none;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Commands</th>
+                <th>Description</th>
+                <th>Sources</th>
+            </tr>
+            <tr>
+                <td class="commands">openssl</td>
+                <td>Encrypt or Decrypt Text with Password.</td>
+                <td class="sources">
+                    <a class="stack-overflow-btn" target="_blank" href="https://stackoverflow.com/questions/16056135/how-to-use-openssl-to-encrypt-decrypt-files">Stack Overflow</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="commands">md5sum</td>
+                <td>Check for Authenticity of hash.</td>
+                <td class="sources">
+                    <a class="geeks-for-geeks-btn" target="_blank" href="https://www.geeksforgeeks.org/md5sum-linux-command/">Geeks for Geeks</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="commands">sqlmap</td>
+                <td>SQL Injection.</td>
+                <td class="sources">
+                    <a class="the-security-sleuth-btn" target="_blank" href="https://www.security-sleuth.com/sleuth-blog/2017/1/3/sqlmap-cheat-sheet">The Security Sleuth</a>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
